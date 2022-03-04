@@ -1,0 +1,69 @@
+body {
+    background-color: #11114eef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    margin: 25px 20% 0px 20%;
+    border: white 1px solid;
+    height: 900px;
+    /* border-color: white; */
+    /* background-color: rgb(61, 61, 61); */
+}
+header {
+    text-align: center;
+    color: white;
+    
+    
+}
+#title {
+    padding: 10px;
+    letter-spacing: 5px;
+    
+}
+
+#header_icone button {
+    padding: 5px;
+    margin: 10px;
+}
+
+/* The Modal (background) */
+#rules {
+    color : black;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#rules_content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 56%; /* Full width */
+    height: 70%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
