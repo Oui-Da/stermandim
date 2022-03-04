@@ -1,0 +1,39 @@
+body {
+    background-color: #11114eef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    margin: 25px 20% 0px 20%;
+    border: white 1px solid;
+    height: 900px;
+    /* border-color: white; */
+    /* background-color: rgb(61, 61, 61); */
+}
+header {
+    text-align: center;
+    color: white;
+    
+    
+}
+#title {
+    padding: 10px;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+#header_icone img {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0.514);
+    border-radius: 20px;
+}
+#header_icone img:hover{
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.733);
+} 
+
+.light_mode {
+    background-color: rgb(170, 176, 255);
+    color: black;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STERMANDIM</title>
+    <link rel="stylesheet" href="css/stermandim.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+<div id="main">
+    <header>
+        <h1 id="title">STERMANDIM</h1>
+        <div id="header_icone">
+            <img id="bt_rules" src="template/rules_icon.png" style="width:30px;height:30px;">
+            <img id="bt_parameter"src="template/parameter_icon.png" style="width:30px;height:30px;">
+            <img id="bt_about"src="template/about_icon.png" style="width:30px;height:30px;">
+        </div>
+        <!-- rules PopUp -->
+        <div id="rules">
+            <div id="rules_content">
+                
+                <span class="Rclose">&times;</span>
+                <h1>Rules</h1>
+                <p>The Rules are simple: You need to guess a combination of 4 colors. You have the choice between 6 colors. You have to guess before 8 rounds otherwise it's lose. 
+                    Dots on the right side of the board will give some indication on how many colors you have well guess (red dot) or how many colors are good but not in the right place(white dot).
+                    The order of the dots does not correspond of the order of the combination.
+                </p>
+            </div>
+        </div>
+
+        <div id="parameter">
+            <div id="parameter_content">
+                
+                <span class="Pclose">&times;</span>
+                <h1>Parameter</h1>
+                <div>
+                    <label>THEME : </label>
+                    <button id="theme" onclick="DLtheme()">CHANGE</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="about">
+            <div id="about_content">
+                
+                <span class="Aclose">&times;</span>
+                <h1>About</h1>
+                <p>Made by Alborn Svetlannov</p>
+            </div>
+        </div>
+        
+    </header>
+    <div id="game_panel">
+        <div id="game">
+
+        </div>
+        <div id="input">
+
+        </div>
+    </div>
+    <div id="result">
+
+    </div>
+
+</div>
+<script src="js/popup.js"></script>
+<script src="js/player.js"></script>
+</body>
+
+
+</html>

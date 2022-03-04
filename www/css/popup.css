@@ -1,0 +1,143 @@
+#rules {
+    color : white;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#rules_content {
+    background-color: #5a5a5a;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 56%; /* Full width */
+    height: 70%;
+}
+
+/* The Close Button */
+.Rclose {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Rclose:hover,
+.Rclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#parameter {
+    color : white;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#parameter_content {
+    background-color: #5a5a5a;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 56%; /* Full width */
+    height: 70%;
+}
+
+/* The Close Button */
+.Pclose {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Pclose:hover,
+.Pclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* dark and light theme button */
+#theme {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#theme:hover {
+    background-color: rgb(61, 61, 61);
+}
+#theme:active {
+    background-color: rgb(54, 54, 54);
+}
+#parameter_content div * {
+    font-size: 25px;
+}
+
+
+
+#about {
+    color : white;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#about_content {
+    background-color: #5a5a5a;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 56%; /* Full width */
+    height: 70%;
+}
+
+/* The Close Button */
+.Aclose {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Aclose:hover,
+.Aclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
