@@ -13,13 +13,14 @@ body {
 header {
     text-align: center;
     color: white;
-    
-    
+    margin-bottom: 50px;
 }
 #title {
     padding: 10px;
     letter-spacing: 5px;
     font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #header_icone img {
@@ -36,4 +37,89 @@ header {
 .light_mode {
     background-color: rgb(170, 176, 255);
     color: black;
+}
+
+.grid {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.grid table {
+    display: inline-block;
+    border-spacing: 10px;
+}
+
+.grid td{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    border: 2px solid black;
+    z-index: 0;
+}
+
+.clueTable {
+    border-spacing: 2px;
+
+}
+
+.clueTable td{
+    width: 10px;
+    height: 10px;
+}
+
+.pink {
+    background-color: rgb(255, 121, 210) ;
+}
+
+.green {
+    background-color: rgb(22, 146, 5);
+}
+
+.purple {
+    background-color: rgb(106, 1, 148);
+}
+
+.yellow {
+    background-color: rgb(255, 251, 0) ;
+}
+
+.blue {
+    background-color: rgb(21, 45, 255) ;
+}
+
+.orange {
+    background-color: rgb(216, 58, 0) ;
+}
+
+.notIn {
+    background-color: black ;
+}
+
+.In {
+    background-color: red ;
+}
+
+.notHere {
+    background-color: white ;
+}
+
+.default {
+    background-color: rgb(59, 59, 59) ;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.inputColor {
+    flex-grow: 1;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
 }
